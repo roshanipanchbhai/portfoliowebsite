@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand  {
+    color: #e75805 !important;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+.navText:hover {
+    color: #e75805 !important;
+}
+
+.nav-btn:active {
+    color: #e75805 !important;
+}
+
+
+.card {
+    background-color: #9696962f;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+span a {
+    color: #e75805 !important;
+}
+
+/* Home */
+#Home {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBg img {
+    background-color: rgb(184, 184, 184);
+    border-radius: 50%;
+    width: 600px;
+    padding: 0rem 2rem;
+}
+
+
+.socialMedia span a {
+    text-decoration: none;
+}
+
+
+/* About */
+
+/* Projects */
+#Projects {
+    padding-top: 4rem;
+}
+
+.card {
+    background-color: #5555558a !important;
+    width: 25rem !important;
+    margin: 2rem;
+    border-radius: 25px !important;
+}
+
+.cardForm {
+    background-color: #5555558a !important;
+    margin: 2rem;
+    border-radius: 25px !important;
+}
+
+/* Contact */
+#Contact {
+    padding-top: 4rem;
+}
+
+.myname {
+    color: #e75805 ;
+}
+
+/* Media Tab */
+@media (max-width: 768px) {
+    .socialMedia {
+        display: none;
+    }
+
+
+    .mob {
+        padding-top: 2rem !important;
+    }
+
+    .row {
+        padding-top: 2rem !important;
+    }
+
+    .con1 {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .con1 input {
+        margin-bottom: 1rem;
+    }
+}
+
+/*  */
+@media (min-width: 768px) {
+    section {
+        margin-top: 2rem;
+        min-height: 100vh;
+    }
+    
+    #About {
+        display: flex;
+        align-items: center;
+    }
+
+    #Contact {
+        display: flex;
+        align-items: center;
+    }
+
+    .socialMedia span a i {
+        padding: 1rem;
+        font-size-adjust: 50px !important;
+    }
+ }
